@@ -10,19 +10,18 @@ return [
         'Connections' => [
             'Default' => [
                 'charset' => 'utf8',
-                'dbname' => 'travelMates',
+                'dbname' => 't3_travelmates',
                 'driver' => 'mysqli',
                 'host' => '127.0.0.1',
-                'password' => 'password',
+                'password' => 'zohci1ui9UZohng7',
                 'port' => 3306,
-                'user' => 'root',
+                'user' => 'travelmates',
             ],
         ],
     ],
     'EXT' => [
         'extConf' => [
             'bootstrap_package' => 'a:7:{s:16:"disablePageTsRTE";s:1:"0";s:27:"disablePageTsBackendLayouts";s:1:"0";s:20:"disablePageTsTCEMAIN";s:1:"0";s:20:"disablePageTsTCEFORM";s:1:"0";s:30:"disablePageTsTtContentPreviews";s:1:"0";s:36:"disablePageTsNewContentElementWizard";s:1:"0";s:21:"disableLessProcessing";s:1:"0";}',
-            'car_rental' => 'a:0:{}',
             'femanager' => 'a:4:{s:13:"disableModule";s:1:"0";s:24:"enableConfirmationModule";s:1:"0";s:10:"disableLog";s:1:"0";s:16:"setCookieOnLogin";s:1:"0";}',
             'mates_travel' => 'a:0:{}',
             'rsaauth' => 'a:1:{s:18:"temporaryDirectory";s:0:"";}',
